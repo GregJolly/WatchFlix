@@ -6,6 +6,7 @@ import com.watchflix.app.domain.entity.User;
 import com.watchflix.app.domain.entity.UserMovie;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 public interface UserService {

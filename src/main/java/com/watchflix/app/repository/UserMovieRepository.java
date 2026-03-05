@@ -17,4 +17,5 @@ public interface UserMovieRepository extends JpaRepository<UserMovie, UUID> {
     boolean existsByUserAndTmdbId(User user, Integer tmbdId);
 
 
+    User user(User user);
 }

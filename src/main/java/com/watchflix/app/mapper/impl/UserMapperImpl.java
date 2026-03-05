@@ -2,6 +2,7 @@ package com.watchflix.app.mapper.impl;
 
 import com.watchflix.app.domain.*;
 import com.watchflix.app.domain.dto.request.*;
+import com.watchflix.app.domain.dto.response.AuthResponseDto;
 import com.watchflix.app.domain.dto.response.UserDto;
 import com.watchflix.app.domain.dto.response.UserMovieDto;
 import com.watchflix.app.domain.entity.User;

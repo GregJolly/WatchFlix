@@ -4,17 +4,14 @@ import java.util.UUID;
 
 public class UserNotFoundException extends RuntimeException{
 
-    private UUID id;
 
-    public UserNotFoundException(UUID id)
+
+    public UserNotFoundException()
     {
-        super(String.format("The user with the ID '%s' cannot be found", id));
-        this.id = id;
+        super("The user cannot be found");
+
 
 
     }
 
-    public UUID getId() {
-        return id;
-    }
 }

@@ -63,5 +63,6 @@ public class TmdbMovieResponse {
     }
 
     public List<String> getCast() {
+        return null;
     }
 }

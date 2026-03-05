@@ -28,7 +28,7 @@ public class User {
 
     public User() {}
 
-    public User(UUID id, String username, String email, String password, Instant createdAt, Instant updatedAt) {
+    public User(UUID id, String username, String password, Instant createdAt, Instant updatedAt) {
         this.id = id;
         this.username = username;
 
